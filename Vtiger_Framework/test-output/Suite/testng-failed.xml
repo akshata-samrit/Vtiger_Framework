@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="5" name="Test1-Firefox(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.crm.vtiger.opportunitytest.TC_03CreateOpportunityTest">
+        <methods>
+          <include name="createOpportunityWithSalesStagedClosedLostByClickingOnCancelButton"/>
+          <include name="logoutFromApp"/>
+          <include name="loginToApp"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="closeDB"/>
+          <include name="connectionDB"/>
+        </methods>
+      </class> <!-- com.crm.vtiger.opportunitytest.TC_03CreateOpportunityTest -->
+      <class name="com.crm.vtiger.opportunitytest.TC_02CreateOpportunityTest">
+        <methods>
+          <include name="logoutFromApp"/>
+          <include name="loginToApp"/>
+          <include name="createOpportunityWithoutFillingMandatoryDetails"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="closeDB"/>
+          <include name="connectionDB"/>
+        </methods>
+      </class> <!-- com.crm.vtiger.opportunitytest.TC_02CreateOpportunityTest -->
+      <class name="com.crm.vtiger.opportunitytest.TC_05CreateFilterTest">
+        <methods>
+          <include name="logoutFromApp"/>
+          <include name="createFilterWithoutMandatoryFields"/>
+          <include name="loginToApp"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="closeDB"/>
+          <include name="connectionDB"/>
+        </methods>
+      </class> <!-- com.crm.vtiger.opportunitytest.TC_05CreateFilterTest -->
+      <class name="com.crm.vtiger.opportunitytest.TC_04CreateFilterTest">
+        <methods>
+          <include name="logoutFromApp"/>
+          <include name="createFilter"/>
+          <include name="loginToApp"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="closeDB"/>
+          <include name="connectionDB"/>
+        </methods>
+      </class> <!-- com.crm.vtiger.opportunitytest.TC_04CreateFilterTest -->
+      <class name="com.crm.vtiger.opportunitytest.TC_01CreateOpportunityTest">
+        <methods>
+          <include name="logoutFromApp"/>
+          <include name="createOpportunityWithSalesStagedClosedLost"/>
+          <include name="loginToApp"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="closeDB"/>
+          <include name="connectionDB"/>
+        </methods>
+      </class> <!-- com.crm.vtiger.opportunitytest.TC_01CreateOpportunityTest -->
+      <class name="com.crm.vtiger.opportunitytest.TC_06CreateFilterTest">
+        <methods>
+          <include name="logoutFromApp"/>
+          <include name="createFilterAndClickOnCancelButton"/>
+          <include name="loginToApp"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="closeDB"/>
+          <include name="connectionDB"/>
+        </methods>
+      </class> <!-- com.crm.vtiger.opportunitytest.TC_06CreateFilterTest -->
+    </classes>
+  </test> <!-- Test1-Firefox(failed) -->
+  <test thread-count="5" name="Test1-Chrome(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.crm.vtiger.opportunitytest.TC_03CreateOpportunityTest">
+        <methods>
+          <include name="createOpportunityWithSalesStagedClosedLostByClickingOnCancelButton"/>
+          <include name="logoutFromApp"/>
+          <include name="loginToApp"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="closeDB"/>
+          <include name="connectionDB"/>
+        </methods>
+      </class> <!-- com.crm.vtiger.opportunitytest.TC_03CreateOpportunityTest -->
+      <class name="com.crm.vtiger.opportunitytest.TC_02CreateOpportunityTest">
+        <methods>
+          <include name="logoutFromApp"/>
+          <include name="loginToApp"/>
+          <include name="createOpportunityWithoutFillingMandatoryDetails"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="closeDB"/>
+          <include name="connectionDB"/>
+        </methods>
+      </class> <!-- com.crm.vtiger.opportunitytest.TC_02CreateOpportunityTest -->
+      <class name="com.crm.vtiger.opportunitytest.TC_05CreateFilterTest">
+        <methods>
+          <include name="logoutFromApp"/>
+          <include name="createFilterWithoutMandatoryFields"/>
+          <include name="loginToApp"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="closeDB"/>
+          <include name="connectionDB"/>
+        </methods>
+      </class> <!-- com.crm.vtiger.opportunitytest.TC_05CreateFilterTest -->
+      <class name="com.crm.vtiger.opportunitytest.TC_04CreateFilterTest">
+        <methods>
+          <include name="logoutFromApp"/>
+          <include name="createFilter"/>
+          <include name="loginToApp"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="closeDB"/>
+          <include name="connectionDB"/>
+        </methods>
+      </class> <!-- com.crm.vtiger.opportunitytest.TC_04CreateFilterTest -->
+      <class name="com.crm.vtiger.opportunitytest.TC_01CreateOpportunityTest">
+        <methods>
+          <include name="logoutFromApp"/>
+          <include name="createOpportunityWithSalesStagedClosedLost"/>
+          <include name="loginToApp"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="closeDB"/>
+          <include name="connectionDB"/>
+        </methods>
+      </class> <!-- com.crm.vtiger.opportunitytest.TC_01CreateOpportunityTest -->
+      <class name="com.crm.vtiger.opportunitytest.TC_06CreateFilterTest">
+        <methods>
+          <include name="logoutFromApp"/>
+          <include name="createFilterAndClickOnCancelButton"/>
+          <include name="loginToApp"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="closeDB"/>
+          <include name="connectionDB"/>
+        </methods>
+      </class> <!-- com.crm.vtiger.opportunitytest.TC_06CreateFilterTest -->
+    </classes>
+  </test> <!-- Test1-Chrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="5" parallel='tests'>
+   <test  name="Test1-Chrome">
+   <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="com.crm.vtiger.opportunitytest.TC_01CreateOpportunityTest"/>
+      <class name="com.crm.vtiger.opportunitytest.TC_05CreateFilterTest"/>
+      <class name="com.crm.vtiger.opportunitytest.TC_02CreateOpportunityTest"/>
+      <class name="com.crm.vtiger.opportunitytest.TC_06CreateFilterTest"/>
+      <class name="com.crm.vtiger.opportunitytest.TC_03CreateOpportunityTest"/>
+      <class name="com.crm.vtiger.opportunitytest.TC_04CreateFilterTest"/>
+    </classes>
+  </test> <!-- Test -->
+   
+   <test  name="Test2-Firefox">
+   <parameter name="browser" value="firefox"></parameter>
+    <classes>
+      <class name="com.crm.vtiger.opportunitytest.TC_01CreateOpportunityTest"/>
+      <class name="com.crm.vtiger.opportunitytest.TC_05CreateFilterTest"/>
+      <class name="com.crm.vtiger.opportunitytest.TC_02CreateOpportunityTest"/>
+      <class name="com.crm.vtiger.opportunitytest.TC_06CreateFilterTest"/>
+      <class name="com.crm.vtiger.opportunitytest.TC_03CreateOpportunityTest"/>
+      <class name="com.crm.vtiger.opportunitytest.TC_04CreateFilterTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
